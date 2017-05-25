@@ -22,44 +22,48 @@
 <body>
 
     <div class="container">
-        <header>
-            <div class="row">
-                <!-- No need to add col-xs-12 | Bootstrap will automatically adjust to full width if screen is smaller than md -->
-                <div class="col-md-2 col-xs-3">
-                    <img src="img/logo.gif" alt="computer beating heart" class="img-responsive">
-                </div>
-                <div class="col-md-10 col-xs-9 text-right">
-                    <h1 class="uppercase-text">Ziad Alame</h1>
-                    <h4 class="uppercase-text">front-end ninjs</h4>
-                </div>
+        <header class="row">
+            <!-- No need to add col-xs-12 | Bootstrap will automatically adjust to full width if screen is smaller than md -->
+            <div class="col-md-2 col-xs-3">
+                <img src="img/logo.gif" alt="computer beating heart" class="img-responsive">
+            </div>
+            <div class="col-md-10 col-xs-9 text-right">
+                <h1 class="uppercase-text">Ziad Alame</h1>
+                <h4 class="uppercase-text">front-end ninjs</h4>
             </div>
         </header>
-        <section id="content">
-            <img src="img/banner.png" alt="Ziad's potfolio website image from ziad.me" class="img-responsive">
-            <div class="featured-projects">
+        <section class="row">
+            <div class="col-xs-12">
+                <img src="img/banner.png" alt="Ziad's potfolio website image from ziad.me" class="banner img-responsive">
+            </div>
+        </section>
+        <section class="row featured-projects">
+            <div class="col-xs-12">
                 <h2 class="title">Featured Projects</h2>
-                <div class="row text-center">
-                    <div class="col-sm-4 single-project">
-                        <img src="img/presella.png" alt="Presella" class="img-responsive">
-                        <h3 class="uppercase-text">Presella</h3>
-                        <a href="https://presella.com" target="_blank">https://presella.com</a>
-                    </div>
-                    <div class="col-sm-4 single-project">
-                        <img src="img/fashiontveyewear.png" alt="fashiontv eyewear" class="img-responsive">
-                        <h3 class="uppercase-text">FashionTV Eyewear</h3>
-                        <a href="https://fashiontveyewear.com" target="_blank">https://fashiontveyewear.com</a>
-                    </div>
-                    <div class="col-sm-4 single-project">
-                        <img src="img/startupgrind.png" alt="Startup Grind Beirut" class="img-responsive">
-                        <h3 class="uppercase-text">Startup Grinf Beirut</h3>
-                        <a href="https://google.com" target="_blank">http://startupgrindbeirut.com/</a>
-                    </div>
-                </div>
+            </div>
+        </section>
+        <section class="row text-center">
+            <div class="col-sm-4 single-project">
+                <img src="img/presella.png" alt="Presella" class="img-responsive">
+                <h3 class="uppercase-text">Presella</h3>
+                <a href="https://presella.com" target="_blank">https://presella.com</a>
+            </div>
+            <div class="col-sm-4 single-project">
+                <img src="img/fashiontveyewear.png" alt="fashiontv eyewear" class="img-responsive">
+                <h3 class="uppercase-text">FashionTV Eyewear</h3>
+                <a href="https://fashiontveyewear.com" target="_blank">https://fashiontveyewear.com</a>
+            </div>
+            <div class="col-sm-4 single-project">
+                <img src="img/startupgrind.png" alt="Startup Grind Beirut" class="img-responsive">
+                <h3 class="uppercase-text">Startup Grinf Beirut</h3>
+                <a href="https://google.com" target="_blank">http://startupgrindbeirut.com/</a>
             </div>
         </section>
         <!-- Footer Section (this was not part of the design but I added it to complete the site) -->
-        <footer class="text-right">
-            Developed by Ziad Alame.
+        <footer class="row text-right">
+            <div class="col-md-12">
+                <p>Developed by Ziad Alame.</p>
+            </div>
         </footer>
     </div>
 

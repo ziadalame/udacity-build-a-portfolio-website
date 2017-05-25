@@ -5,7 +5,6 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #7d97ad;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -23,8 +22,13 @@ header h4 {
     margin: 30px 0;
 }
 
-#content img {
+img {
     width: 100%;
+}
+
+img.banner {
+    border-top: 2px solid #7d97ad;
+    padding-top: 30px;
 }
 
 .uppercase-text {
@@ -49,7 +53,11 @@ header h4 {
 }
 
 footer {
-    border-top: 1px solid #2d3c49;
-    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
     font-style: italic;
+    padding: 15px 0;
+    border-top: 1px solid #2d3c49;
 }
