@@ -1,0 +1,55 @@
+/* Change the font family in the page */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid #7d97ad;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1,
+header h4 {
+    /* make fint light */
+    font-weight: 300;
+}
+
+
+/* using id selectors for demonstration purposes - this can also be a class */
+
+#content {
+    margin: 30px 0;
+}
+
+#content img {
+    width: 100%;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.featured-projects {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.featured-projects h2 {
+    color: #7d97ad;
+}
+
+.featured-projects .single-project {
+    margin-bottom: 15px;
+}
+
+.featured-projects .single-project h3 {
+    color: #2d3c49;
+}
+
+footer {
+    border-top: 1px solid #2d3c49;
+    padding: 15px 0;
+    font-style: italic;
+}
