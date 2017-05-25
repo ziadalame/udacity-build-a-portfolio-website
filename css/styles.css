@@ -44,16 +44,12 @@ img.banner {
     color: #7d97ad;
 }
 
-.featured-projects .single-project {
-    margin-bottom: 15px;
+.single-project {
+    margin-bottom: 30px;
 }
 
-.featured-projects .single-project h3 {
+.single-project h3 {
     color: #2d3c49;
-}
-
-footer {
-    margin-top: 30px;
 }
 
 footer p {
